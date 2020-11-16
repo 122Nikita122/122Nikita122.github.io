@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#startTime,
+.stop {
+    color:#b50700;
+    background-color: #091e6d;
+    border: 1px #b50700 solid;
+    border-radius: 4px;
+}
+
+.time_block { 
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 100px;
+    
+}
+#titel_hours {
+    color:#b50700;
+}
+#titel_minutes{
+    color:#091e6d;;
+}
